@@ -8,6 +8,7 @@ if (!scriptIsLoaded)
 	}
 	script.src = 'https://raw.githubusercontent.com/mt9304/bennysaddon/master/mainfunction.js';
 	head.appendChild(script);
+	console.log("appended");
 }
 
 increaseTextBoxHeight();
